@@ -24,15 +24,15 @@ Now browse to the app at http://localhost:3000
 
 # Directory Layout
 
-app/                    --> all of the source files for the application
-  assets/               --> define assets of application 
-    css/	              --> define stylesheet
-       style.css        --> default stylesheet
-  components/           --> version related components
-    index.js 	          --> component declaration 
-    view/               --> load component view
-       Accordion.html	  --> component layout view 
- controller/	          --> Application bind controller 
-    Index.js            --> declare controller logic 
-index.js	              --> main application modules
-index.html	            --> app layout file (the main html template file of the app)
+app/                    --> all of the source files for the application   
+  assets/               --> define assets of application  
+     css/	              --> define stylesheet  
+        style.css        --> default stylesheet  
+   components/           --> version related components 
+     index.js 	          --> component declaration  
+     view/               --> load component view 
+        Accordion.html	  --> component layout view  
+  controller/	          --> Application bind controller  
+     Index.js            --> declare controller logic  
+index.js	              --> main application modules 
+index.html	            --> app layout file (the main html template file of the app) 
