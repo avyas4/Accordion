@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      
+<html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7">
+   <![endif]-->
+   <!--[if IE 7]>         
+   <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8">
+      <![endif]-->
+      <!--[if IE 8]>         
+      <html lang="en" ng-app="myApp" class="no-js lt-ie9">
+         <![endif]-->
+         <!--[if gt IE 8]><!-->
+         <html lang="en" class="no-js">
+            <!--<![endif]-->
+            <head>
+               <meta charset="utf-8">
+               <meta http-equiv="X-UA-Compatible" content="IE=edge">
+               <title>Public Feed</title>
+               <meta name="description" content="">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+               <link rel='stylesheet' , href='assets/css/style.css' />
+               <style type="text/css">
+               </style>
+            </head>
+            <body ng-app='myApp' ng-class="{'sidenav-active':isVisible}" ng-controller='mainController' ng-cloak>
+               <!-- Slide Navigation -->
+               <div class='main-div'>
+                  <div class="page-header">NAVIGATION</div>
+                  <div class="hamburger" id="hamburger" ng-click="toggleSidenav()">&#9776;</div>
+                  <nav>
+                     <a>SIDEBAR</a>
+                  </nav>
+                  <!-- Accordion Component -->
+                  <my-accordion></my-accordion>
+               </div>
+               <script src="./bower_components/angular/angular.js"></script>
+               <script src='index.js'></script>
+               <script src='controller/index.js'></script>
+               <script src='components/index.js'></script>
+            </body>
+         </html>
